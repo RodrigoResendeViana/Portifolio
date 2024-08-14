@@ -1,1 +1,19 @@
-/*# sourceMappingURL=About.css.map */
+.portifolio__about {
+  background: #5338ec;
+  height: 200px;
+}
+.portifolio__about button {
+  margin-top: 50px;
+  padding: 1rem 4rem;
+  font-size: 20px;
+  border: 1px solid white;
+  outline: none;
+  border-radius: 30px;
+  background: rgb(88, 88, 234);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.portifolio__about button:hover {
+  background: transparent;
+}/*# sourceMappingURL=About.css.map */

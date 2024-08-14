@@ -14,8 +14,23 @@
   padding: 0 4rem;
 }
 .portifolio__navbar-list p {
-  padding: 0 2rem;
+  margin: 0 2rem;
   font-size: 20px;
+  position: relative;
+}
+.portifolio__navbar-list p::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: 0.3s;
+  transform: translateX(-50%);
+}
+.portifolio__navbar-list p:hover::before {
+  width: 100%;
 }
 
 .portifolio__navbar-logo {

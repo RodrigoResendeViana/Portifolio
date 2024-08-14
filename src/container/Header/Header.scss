@@ -1,65 +1,69 @@
 .portifolio__header{
-    position: relative;
     display: flex;
     justify-content: space-between;
     overflow: hidden;
     font-family: var(--font-family);
     margin-top: 4rem;
 
-    .portifolio__header-content{
-        flex: 1;
-        color: white;
-        flex-direction: column;
-        padding: 10rem 5rem;
+}
 
-        h3{
-            font-size: 35px;
-            font-weight: 100;
-            line-height: 20px;
-            margin-bottom: 15px;
-        }
+.portifolio__header-content{
+    flex: 1;
+    color: white;
+    flex-direction: column;
+    padding: 10rem 5rem;
+    
+    h3{
+        font-size: 35px;
+        font-weight: 100;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+    
+    h1{
+        line-height: 80px;
+        font-weight: 900;
+        font-size: 70px;
+        margin-bottom: 70px;
+    }
+    
+    p{
+        text-align: justify;
+        font-weight: 200;
+        width: 100%;
         
-        h1{
-            line-height: 80px;
+        b{
             font-weight: 900;
-            font-size: 70px;
-            margin-bottom: 70px;
-        }
-
-        p{
-            text-align: justify;
-            font-weight: 200;
-            width: 90%;
-
-            b{
-                font-weight: 900;
-            }
-        }
-
-        button{
-            margin-top: 50px;
-            padding: 1rem 4rem;
-            font-size: 20px;
-
-            border: 1px solid white;
-            outline: none;
-            border-radius: 30px;
-
-            background: rgb(88, 88, 234);
-            color: white;
-            
-            cursor: pointer;
-            transition: background-color 0.3s ease; 
-        }
-        button:hover{
-            background: transparent;
         }
     }
+}
 
+.portifolio__header-icones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
 
-    img{
-        flex: 1.5;
-        opacity: 0.8;
-        width: 90%;
-    }
+.portifolio__header-icon{
+    cursor: pointer;
+    margin: 15px;
+    font-size: 60px;
+    padding: 10px;
+    background: #080227;
+    border-radius: 50%;
+    transition: .4s;
+    opacity: 0.6;
+}
+
+.portifolio__header-icon:hover{
+    color: #171762;
+    background: white;
+    opacity: 1;
+}
+
+img{
+    flex: 1.5;
+    opacity: 0.8;
+    width: 90%;
 }

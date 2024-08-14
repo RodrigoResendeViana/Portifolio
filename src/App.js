@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-import { About, Footer, Header, Skills, Projects } from './container';
+import { About, Contact, Header, Skills, Projects, Footer } from './container';
 import { Navbar } from './components';
 
 
@@ -15,6 +15,7 @@ function App() {
       <About/>
       <Skills/>
       <Projects/>
+      <Contact/>
       <Footer/>
     </div>
   );

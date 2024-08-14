@@ -1,0 +1,9 @@
+.portifolio__contact {
+  display: flex;
+  justify-content: space-around;
+}
+
+.portifolio__contact-form {
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=Contact.css.map */
