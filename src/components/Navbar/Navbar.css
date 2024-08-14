@@ -1,0 +1,126 @@
+.portifolio__navbar {
+  padding: 2rem 0;
+  display: flex;
+  align-items: flex-end;
+  font-family: var(--font-family);
+}
+
+.portifolio__navbar-list {
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  flex: 2;
+  padding: 0 4rem;
+}
+.portifolio__navbar-list p {
+  padding: 0 2rem;
+  font-size: 20px;
+}
+
+.portifolio__navbar-logo {
+  flex: 1;
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  font-family: var(--font-family);
+}
+.portifolio__navbar-logo p {
+  font-size: 10px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+.portifolio__navbar-logo h3 {
+  font-size: 25px;
+  letter-spacing: -0.5px;
+  font-weight: 900;
+}
+
+.portifolio__navbar-menu {
+  margin-left: 1rem;
+  display: none;
+  position: relative;
+}
+
+.portifolio__navbar-menu {
+  cursor: pointer;
+}
+
+.portifolio__navbar-menu_container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: end;
+  padding: 2rem;
+  position: absolute;
+  top: 70px;
+  right: 0;
+  margin-top: 1rem;
+  min-width: 140px;
+  border-radius: 5px;
+  box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+  color: white;
+  z-index: 1;
+}
+
+.portifolio__navbar-menu_container p {
+  margin: 1rem 0;
+}
+
+@media screen and (max-width: 850px) {
+  .portifolio__navbar {
+    padding: 2rem 4rem;
+  }
+  .portifolio__navbar-list p {
+    font-size: 15px;
+  }
+  .portifolio__navbar-logo p {
+    font-size: 8px;
+    font-weight: 100;
+    letter-spacing: 1px;
+  }
+  .portifolio__navbar-logo h3 {
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    font-weight: 900;
+  }
+}
+@media screen and (max-width: 900px) {
+  .portifolio__navbar-list {
+    display: none;
+  }
+  .portifolio__navbar-menu {
+    display: flex;
+  }
+  .portifolio__navbar {
+    padding: 2rem 4rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .portifolio__navbar-logo {
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+  .portifolio__navbar-logo p {
+    font-size: 8px;
+    font-weight: 100;
+    letter-spacing: 1px;
+  }
+  .portifolio__navbar-logo h3 {
+    font-size: 15px;
+    letter-spacing: -0.5px;
+    font-weight: 900;
+  }
+}
+@media screen and (max-width: 550px) {
+  .portifolio__navbar {
+    padding: 2rem;
+  }
+  .portifolio__navbar-sign {
+    display: none;
+  }
+  .portifolio__navbar-menu_container {
+    top: 20px;
+  }
+}/*# sourceMappingURL=Navbar.css.map */
