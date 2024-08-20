@@ -1,9 +1,17 @@
 .portifolio__header {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
   overflow: hidden;
   font-family: var(--font-family);
   margin-top: 4rem;
+}
+.portifolio__header img {
+  flex: 1.5;
+  opacity: 0.8;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 90%;
 }
 
 .portifolio__header-content {
@@ -55,10 +63,4 @@
   color: #171762;
   background: white;
   opacity: 1;
-}
-
-img {
-  flex: 1.5;
-  opacity: 0.8;
-  width: 90%;
 }/*# sourceMappingURL=Header.css.map */

@@ -1,6 +1,6 @@
 .portifolio__about {
   background: #5338ec;
-  height: 200px;
+  display: flex;
 }
 .portifolio__about button {
   margin-top: 50px;
@@ -16,4 +16,10 @@
 }
 .portifolio__about button:hover {
   background: transparent;
+}
+.portifolio__about img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
 }/*# sourceMappingURL=About.css.map */
