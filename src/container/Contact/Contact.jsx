@@ -43,47 +43,49 @@ const Contact = () => {
   
 
   return (
-    <div className='portifolio__contact' id='contact'>
-      <div className="portifolio__contact-info">
-        <h1>Info Contato</h1>
+    <div className="portiflio__contact-fundo">
+      <div className='portifolio__contact linear__bg' id='contact'>
+        <div className="portifolio__contact-info">
+          <h1>Info Contato</h1>
+        </div>
+        {isFormSubmitted
+        ?
+        <h3>Thanks for contacting me!</h3>
+        :
+        <div className='portifolio__contact-form'>
+          <h1>Entre em contato</h1>
+          <input 
+            type="text" 
+            placeholder='Nome*' 
+            name="from_name" 
+            value={from_name} 
+            onChange={handleChangeInput} 
+          />
+          <input 
+            type="email" 
+            placeholder='Email*' 
+            name="email" 
+            value={email} 
+            onChange={handleChangeInput} 
+          />
+          <input 
+            type="text" 
+            placeholder='Assunto da mensagem*' 
+            name="assunto" 
+            value={assunto} 
+            onChange={handleChangeInput} 
+          />
+          <textarea 
+            placeholder='Mensagem...'
+            value={message} name="message" 
+            onChange={handleChangeInput}>
+          </textarea>
+          <button type='button' onClick={handleSubmit}>
+            {loading ? 'Sending' : 'Send Message'}
+          </button>
+        </div>
+        }
       </div>
-      {isFormSubmitted
-      ?
-      <h3>Thanks for contacting me!</h3>
-      :
-      <div className='portifolio__contact-form'>
-        <h1>Entre em contato</h1>
-        <input 
-          type="text" 
-          placeholder='Nome*' 
-          name="from_name" 
-          value={from_name} 
-          onChange={handleChangeInput} 
-        />
-        <input 
-          type="email" 
-          placeholder='Email*' 
-          name="email" 
-          value={email} 
-          onChange={handleChangeInput} 
-        />
-        <input 
-          type="text" 
-          placeholder='Assunto da mensagem*' 
-          name="assunto" 
-          value={assunto} 
-          onChange={handleChangeInput} 
-        />
-        <textarea 
-          placeholder='Mensagem...'
-          value={message} name="message" 
-          onChange={handleChangeInput}>
-        </textarea>
-        <button type='button' onClick={handleSubmit}>
-          {loading ? 'Sending' : 'Send Message'}
-        </button>
-      </div>
-      }
     </div>
   )
 }

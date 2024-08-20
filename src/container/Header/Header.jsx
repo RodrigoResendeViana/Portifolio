@@ -19,7 +19,9 @@ const Header = () => {
           <FaGithub className='portifolio__header-icon'/>
         </div>
       </div>
-      <img src={foto} alt="" />
+      <div className="portifolio__header-imagem">
+        <img src={foto} alt="" />
+      </div>
     </div>
   )
 }

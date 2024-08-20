@@ -1,9 +1,29 @@
+.portiflio__contact-fundo {
+  background: #b9c3f8;
+  padding: 7rem;
+}
+
 .portifolio__contact {
   display: flex;
-  justify-content: space-around;
+  color: white;
+  border-radius: 10px;
+  padding: 4rem 0;
+}
+
+.portifolio__contact-info {
+  flex: 1;
 }
 
 .portifolio__contact-form {
+  flex: 1;
   display: flex;
   flex-direction: column;
+}
+.portifolio__contact-form input, .portifolio__contact-form textarea {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  margin: 1rem 0;
+  padding: 0 0.5rem;
 }/*# sourceMappingURL=Contact.css.map */

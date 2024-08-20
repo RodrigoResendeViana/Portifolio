@@ -6,17 +6,23 @@
     font-family: var(--font-family);
     margin-top: 4rem;
     
-    img{
-        flex: 1;
-        opacity: 0.8;
-        object-fit: contain;
-        width: 90%;
-        max-width: 1000px;
+    .portifolio__header-imagem{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex:3;
+        img{
+            opacity: 0.8;
+            object-fit: contain;
+            width: 100%;
+            max-width: 1000px;
+        }
+
     }
 }
 
 .portifolio__header-content{
-    flex: 1;
+    flex: 2;
     color: white;
     flex-direction: column;
     padding: 10rem 5rem;
