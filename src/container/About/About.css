@@ -1,25 +1,56 @@
 .portifolio__about {
-  background: #5338ec;
+  background: #b9c3f8;
   display: flex;
+  padding-top: 5rem;
 }
-.portifolio__about button {
+.portifolio__about .portifolio__about-imagem {
+  flex: 1.5;
+}
+.portifolio__about .portifolio__about-imagem img {
+  width: 90%;
+  padding: 3rem;
+}
+
+.portifolio__about-infos {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 4rem;
+}
+.portifolio__about-infos h1 {
+  font-weight: 900;
+  font-size: 40px;
+  margin-bottom: 1rem;
+}
+.portifolio__about-infos h3 {
+  font-weight: 300;
+  line-height: 1px;
+  margin-bottom: 7rem;
+}
+.portifolio__about-infos p {
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+.portifolio__about-infos a {
+  width: -moz-fit-content;
+  width: fit-content;
+  cursor: default;
+}
+.portifolio__about-infos button {
   margin-top: 50px;
   padding: 1rem 4rem;
   font-size: 20px;
-  border: 1px solid white;
+  border: 1px solid rgb(0, 0, 0);
   outline: none;
   border-radius: 30px;
+  background: transparent;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+.portifolio__about-infos button:hover {
+  border: 1px solid rgb(255, 255, 255);
   background: rgb(88, 88, 234);
   color: white;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-.portifolio__about button:hover {
-  background: transparent;
-}
-.portifolio__about img {
-  width: 100%;
-  height: auto;
-  -o-object-fit: contain;
-     object-fit: contain;
 }/*# sourceMappingURL=About.css.map */
