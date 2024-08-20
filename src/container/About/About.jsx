@@ -13,9 +13,14 @@ const About = () => {
         <h1>Sobre mim</h1>
         <h3>Estagiário Engenharia de Software</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea libero quia corporis magnam deserunt enim pariatur eaque. Quibusdam doloribus est temporibus ex, aspernatur nemo, optio eligendi cumque, vel facere blanditiis.</p>
-        <a href={curriculo} download="curriculo-Rodrigo_Viana.pdf">
-          <button type='button'>Download CV</button>
-        </a>
+        <div className='portifolio__about-buttons'>
+          <a href={curriculo} download="curriculo-Rodrigo_Viana.pdf">
+            <button className='portifolio__about-buttonCV' type='button'>Download CV</button>
+          </a>
+          <a href="#contact">
+            <button className='portifolio__about-buttonContato' type='button'>Contate-me</button>
+          </a>
+        </div>
       </div>
     </div>
   )

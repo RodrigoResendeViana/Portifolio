@@ -1,6 +1,16 @@
 import React, {useState} from 'react'
 import emailjs from '@emailjs/browser'
+import { FaPhone, FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa6";
 import './Contact.css'
+
+const MeioContato = ({icone, informacao}) => {
+  return(
+    <div className="portifolio__contact-info">
+      {icone}
+      <p>{informacao}</p>
+    </div>
+  )
+}
 
 const Contact = () => {
 
@@ -45,12 +55,16 @@ const Contact = () => {
   return (
     <div className="portiflio__contact-fundo">
       <div className='portifolio__contact linear__bg' id='contact'>
-        <div className="portifolio__contact-info">
+        <div className="portifolio__contact-infos">
           <h1>Info Contato</h1>
+          <MeioContato icone={<FaEnvelope/>} informacao="Email: digo1209@gmail.com"/>
+          <MeioContato icone={<FaPhone/>} informacao="Telefone: +55 (11) 99107-8369"/>
+          <MeioContato icone={<FaGithub/>} informacao="Github: https://github.com/RodrigoResendeViana"/>
+          <MeioContato icone={<FaLinkedin/>} informacao="LinkedIn: https://www.linkedin.com/in/rodrigo-viana-532a9525b/"/>
         </div>
         {isFormSubmitted
         ?
-        <h3>Thanks for contacting me!</h3>
+        <h1>Thanks for contacting me!</h1>
         :
         <div className='portifolio__contact-form'>
           <h1>Entre em contato</h1>

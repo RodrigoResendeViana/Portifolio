@@ -46,26 +46,40 @@
     width: fit-content;
     cursor: default;
    }
+  .portifolio__about-buttons{
+    display: flex;
 
-  button {
-    margin-top: 50px;
-    padding: 1rem 4rem;
-    font-size: 20px;
-  
-    border: 1px solid rgb(0, 0, 0);
-    outline: none;
-    border-radius: 30px;
-    
-    background: transparent;
-    color: black;
-    
-    cursor: pointer;
-    transition: background-color 0.5s ease;
+    .portifolio__about-buttonCV{
+      @extend .button;
+      border-radius: 30px 0 0 30px;
+    }
+
+    .portifolio__about-buttonContato{
+      @extend .button;
+      border-radius: 0px 30px 30px 0;
+    }
+
+
   }
-  
-  button:hover {
-    border: 1px solid rgb(255, 255, 255);
-    background: rgb(88, 88, 234);
-    color: white;
-  }
+}
+.button {
+  margin-top: 50px;
+  padding: 1rem 4rem;
+  font-size: 20px;
+  white-space: nowrap;
+
+  border: 1px solid rgb(0, 0, 0);
+  outline: none;
+   
+  background: transparent;
+  color: black;
+   
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+ 
+.button:hover {
+  border: 1px solid rgb(255, 255, 255);
+  background: rgb(88, 88, 234);
+  color: white;
 }
