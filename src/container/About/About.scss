@@ -1,12 +1,16 @@
 .portifolio__about {
     background: #b9c3f8;
     display: flex;
-    padding-top: 5rem;
+    padding: 5rem 0;
   
     .portifolio__about-imagem {
       flex: 1.5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       img {
         width: 90%;
+        max-width: 1000px;
         padding: 3rem;
       }
     }

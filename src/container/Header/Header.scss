@@ -7,10 +7,11 @@
     margin-top: 4rem;
     
     img{
-        flex: 1.5;
+        flex: 1;
         opacity: 0.8;
         object-fit: contain;
         width: 90%;
+        max-width: 1000px;
     }
 }
 

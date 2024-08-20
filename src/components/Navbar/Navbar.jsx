@@ -6,10 +6,10 @@ import './Navbar.css'
 const Menu = () => {
   return(
     <>
-    <p><a href="#about">About</a></p>
+    <p><a href="#about">Sobre</a></p>
     <p><a href="#skills">Skills</a></p>
-    <p><a href="#projects">Projects</a></p>
-    <p><a href="#contact">Contact</a></p>
+    <p><a href="#projects">Projetos</a></p>
+    <p><a href="#contact">Contato</a></p>
     </>
   )
 }

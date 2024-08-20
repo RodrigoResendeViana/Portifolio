@@ -12,10 +12,5 @@ a{
 }
 
 .linear__bg{
-  background: linear-gradient(151deg, #1d1b97 0%, #090029 70%, #54017d 100%); 
-}
-
-.app{
-    /* global 94%+ browsers support */
-  height:700px;
+  background: linear-gradient(151deg, #171575 0%, #090029 70%, #3e015c 100%); 
 }
