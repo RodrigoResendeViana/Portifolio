@@ -83,15 +83,15 @@ const Contact = () => {
             onChange={handleChangeInput} 
           />
           <input 
-            type="text" 
-            placeholder='Assunto da mensagem*' 
-            name="assunto" 
+            type="text"
+            placeholder='Assunto*'
+            name="assunto"
             value={assunto} 
             onChange={handleChangeInput} 
           />
-          <textarea 
+          <textarea
             placeholder='Mensagem...'
-            value={message} name="message" 
+            value={message} name="message"
             onChange={handleChangeInput}>
           </textarea>
           <button type='button' onClick={handleSubmit}>
