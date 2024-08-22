@@ -6,10 +6,10 @@ import './Footer.css'
 const Footer = () => {
   return (
     <div className='portifolio__footer linear__bg'>
-      <div className="portifolio__footer-logo">
+      <a href='#navbar' className="portifolio__footer-logo">
         <h3>Rodrigo Viana</h3>
         <p>Portifolio</p>
-      </div>
+      </a>
       <div className="portifolio__footer-icones">
         <FaWhatsapp className='portifolio__footer-icon'/>
         <FaInstagram className='portifolio__footer-icon'/>

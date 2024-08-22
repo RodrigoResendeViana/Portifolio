@@ -106,4 +106,19 @@
 .active .accordion-text {
   max-height: 200px;
   padding-top: 10px;
+}
+
+.portifolio__skills-hardskills-skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+}
+
+.icon {
+  font-size: 80px;
+  margin: 1rem;
+  color: rgb(17, 4, 91);
 }/*# sourceMappingURL=Skills.css.map */

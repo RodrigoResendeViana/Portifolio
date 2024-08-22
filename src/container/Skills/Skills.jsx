@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
-
+import { FaHtml5, FaCss3, FaSass, FaJs, FaReact, FaAngular, FaJava, FaPython, FaNodeJs, FaGitAlt  } from "react-icons/fa";
 import './Skills.css'
 
 const SoftSkill = ({ skill, texto }) => {
@@ -33,6 +33,19 @@ const Skills = () => {
       <div className="portifolio__skills-all">
         <div className="portifolio__skills-hardskills">
           <h3>Hard Skills</h3>
+          <div className="portifolio__skills-hardskills-skills">
+            <FaHtml5 className='icon'/>
+            <FaCss3 className='icon'/>
+            <FaSass className='icon'/>
+            <FaJs className='icon'/>
+            <FaReact className='icon'/>
+            <FaAngular className='icon'/>
+            <FaJava className='icon'/>
+            <FaPython className='icon'/>
+            <FaNodeJs className='icon'/>
+            <FaGitAlt className='icon'/>
+       
+          </div>
         </div>
         <div className='portifolio__skills-softskills'>
           <h3>Soft Skills</h3>
