@@ -11,10 +11,18 @@ const Footer = () => {
         <p>Portifolio</p>
       </a>
       <div className="portifolio__footer-icones">
-        <FaWhatsapp className='portifolio__footer-icon'/>
-        <FaInstagram className='portifolio__footer-icon'/>
-        <FaLinkedin className='portifolio__footer-icon'/>
-        <FaGithub className='portifolio__footer-icon'/>
+        <a href="https://github.com/RodrigoResendeViana">
+          <FaGithub className='portifolio__footer-icon'/>
+        </a>
+        <a href="https://www.instagram.com/digo_resende/">
+          <FaInstagram className='portifolio__footer-icon'/>
+        </a>
+        <a href="">
+          <FaWhatsapp className='portifolio__footer-icon'/>
+        </a>
+        <a href="https://www.linkedin.com/in/rodrigo-viana-532a9525b/">
+          <FaLinkedin className='portifolio__footer-icon'/>
+        </a>
       </div>
       <h3 className='portifolio__footer-creator'>Made by <b>RodrigoResendeViana</b></h3>
       <p className='portifolio__footer-rights'>© 2024 RodrigoResendeViana - All Rights Reserved</p>
