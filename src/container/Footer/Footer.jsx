@@ -17,9 +17,9 @@ const Footer = () => {
         <a href="https://www.instagram.com/digo_resende/">
           <FaInstagram className='portifolio__footer-icon'/>
         </a>
-        <a href="">
-          <FaWhatsapp className='portifolio__footer-icon'/>
-        </a>
+        <a href="https://wa.me/5511991078369?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços!" target="_blank" rel="noopener noreferrer">
+            <FaWhatsapp className='portifolio__footer-icon'/>
+          </a>
         <a href="https://www.linkedin.com/in/rodrigo-viana-532a9525b/">
           <FaLinkedin className='portifolio__footer-icon'/>
         </a>

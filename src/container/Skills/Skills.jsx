@@ -58,13 +58,13 @@ const Skills = () => {
                         texto="Sim, todas as adoções são gratuitas, mas incentivamos doações para ajudar outros animais em necessidade."
                         />
               <SoftSkill skill="Comunicação" 
-                        texto="Sim, todos os gatos disponíveis para adoção são castrados."
+                        texto="Ao colaborar com equipes em projetos da faculdade, desenvolvi uma comunicação eficaz, essencial para traduzir conceitos técnicos complexos para não técnicos. Minha habilidade em articular ideias de maneira clara e estruturada facilita a colaboração e garante o alinhamento entre todos os envolvidos."
                         />
               <SoftSkill skill="Colaboração" 
-                        texto="Adotar um gato é uma responsabilidade. É importante considerar os custos e o tempo necessários para cuidar adequadamente dele."
+                        texto="Trabalhei em equipes diversas durante minha trajetória acadêmica, onde aprendi o valor da colaboração. Acredito que o sucesso de um projeto depende da sinergia entre seus membros. Por isso, um lugar onde a cooperação é incentivada acaba sendo o melhor lugar para o sucesso do time."
                         />
               <SoftSkill skill="Liderança" 
-                        texto="Adotar um gato é uma responsabilidade. É importante considerar os custos e o tempo necessários para cuidar adequadamente dele."
+                        texto="Desempenhei papéis de liderança em projetos da faculdade, onde fui responsável por coordenar equipes e garantir que todos estivessem alinhados com os objetivos do projeto. Minha abordagem à liderança é baseada em empatia, apoio e orientação, o que ajudou a criar um ambiente de trabalho positivo, motivador e leve."
                         />
             </div>
           </div>
