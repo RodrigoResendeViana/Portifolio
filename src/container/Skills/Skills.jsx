@@ -1,29 +1,8 @@
-import React, {useState} from 'react';
-import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
+import React from 'react';
 import { FaHtml5, FaCss3, FaSass, FaJs, FaReact, FaAngular, FaJava, FaPython, FaNodeJs, FaGitAlt  } from "react-icons/fa";
 import './Skills.css'
+import { SoftSkill } from '../../components';
 
-const SoftSkill = ({ skill, texto }) => {
-  const [isActive, setIsActive] = useState(false);
-
-  const toggleActive = () => {
-    setIsActive(!isActive);
-  };
-
-  return (
-    <div className={`accordion-box ${isActive ? 'active linear__bg' : ''}`} onClick={toggleActive}>
-      <div className='accordion-heading'>
-        <p className='heading'>{skill}</p>
-        {isActive ? <IoIosArrowUp className='icone-setaCima' /> : <IoIosArrowDown className='icone-setaBaixo'/>}
-      </div>
-      {isActive && (
-        <div className="accordion-text">
-          <p>{texto}</p>
-        </div>
-      )}
-    </div>
-  )
-}
 
 const Skills = () => {
   return (
@@ -44,7 +23,6 @@ const Skills = () => {
             <FaPython className='icon'/>
             <FaNodeJs className='icon'/>
             <FaGitAlt className='icon'/>
-       
           </div>
         </div>
         <div className='portifolio__skills-softskills'>
@@ -52,10 +30,10 @@ const Skills = () => {
           <div className='container-perguntas'>
             <div className="accordion">
               <SoftSkill skill="Proatividade" 
-                        texto="Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae at ad quia odit eos hic nobis cupiditate, vel, quos corrupti iure aperiam quidem nisi quas temporibus labore rerum delectus! Dolore?"
+                        texto="Sou uma pessoa proativa, que busca sempre estar à frente. Busco sempre me atualizar na minha área de atuação. Quando me deparo com dificuldades, vou atrás de soluções, pesquisando e aprendendo para superar os desafios. Não espero as coisas acontecerem, tomo a iniciativa para garantir que o trabalho seja feito com excelência."
                         />
               <SoftSkill skill="Adaptabilidade" 
-                        texto="Sim, todas as adoções são gratuitas, mas incentivamos doações para ajudar outros animais em necessidade."
+                        texto="Sou uma pessoa que se adapta bem às mudanças. Encaro novos desafios com flexibilidade e rapidez, ajustando-me às situações para garantir o melhor resultado. Estou sempre preparado para evoluir e me ajustar às necessidades do projeto e do mundo."
                         />
               <SoftSkill skill="Comunicação" 
                         texto="Ao colaborar com equipes em projetos da faculdade, desenvolvi uma comunicação eficaz, essencial para traduzir conceitos técnicos complexos para não técnicos. Minha habilidade em articular ideias de maneira clara e estruturada facilita a colaboração e garante o alinhamento entre todos os envolvidos."
@@ -64,7 +42,7 @@ const Skills = () => {
                         texto="Trabalhei em equipes diversas durante minha trajetória acadêmica, onde aprendi o valor da colaboração. Acredito que o sucesso de um projeto depende da sinergia entre seus membros. Por isso, um lugar onde a cooperação é incentivada acaba sendo o melhor lugar para o sucesso do time."
                         />
               <SoftSkill skill="Liderança" 
-                        texto="Desempenhei papéis de liderança em projetos da faculdade, onde fui responsável por coordenar equipes e garantir que todos estivessem alinhados com os objetivos do projeto. Minha abordagem à liderança é baseada em empatia, apoio e orientação, o que ajudou a criar um ambiente de trabalho positivo, motivador e leve."
+                        texto="Desempenhei papéis de liderança em projetos da faculdade, onde fui responsável por coordenar minha equipe e garantir que todos estivessem alinhados com os objetivos do projeto. Minha abordagem à liderança é baseada em empatia, apoio e orientação, o que ajudou a criar um ambiente de trabalho mais leve."
                         />
             </div>
           </div>

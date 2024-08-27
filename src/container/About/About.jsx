@@ -12,7 +12,7 @@ const About = () => {
       <div className="portifolio__about-infos">
         <h1>Sobre mim</h1>
         <h3>Estagiário Engenharia de Software</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea libero quia corporis magnam deserunt enim pariatur eaque. Quibusdam doloribus est temporibus ex, aspernatur nemo, optio eligendi cumque, vel facere blanditiis.</p>
+        <p>Sou uma pessoa proativa que busca sempre contribuir com o crescimento da empresa, enquanto amplio meu conhecimento e habilidades. Sou comprometido com o meu aprendizado contínuo e acredito que posso agregar valor enquanto evoluo profissionalmente.</p>
         <div className='portifolio__about-buttons'>
           <a href={curriculo} download="curriculo-Rodrigo_Viana.pdf">
             <button className='portifolio__about-buttonCV' type='button'>Download CV</button>
