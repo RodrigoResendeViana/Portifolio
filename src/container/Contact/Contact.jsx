@@ -64,7 +64,7 @@ const Contact = () => {
         </div>
         {isFormSubmitted
         ?
-        <h1>Thanks for contacting me!</h1>
+        <h1>Obrigado por entrar em contato!</h1>
         :
         <div className='portifolio__contact-form'>
           <h1>Entre em contato</h1>
