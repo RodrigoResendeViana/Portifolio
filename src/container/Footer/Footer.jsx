@@ -11,16 +11,16 @@ const Footer = () => {
         <p>Portifolio</p>
       </a>
       <div className="portifolio__footer-icones">
-        <a href="https://github.com/RodrigoResendeViana">
+        <a href="https://github.com/RodrigoResendeViana"  target='blank'>
           <FaGithub className='portifolio__footer-icon'/>
         </a>
-        <a href="https://www.instagram.com/digo_resende/">
+        <a href="https://www.instagram.com/digo_resende/"  target='blank'>
           <FaInstagram className='portifolio__footer-icon'/>
         </a>
         <a href="https://wa.me/5511991078369?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços!" target="_blank" rel="noopener noreferrer">
             <FaWhatsapp className='portifolio__footer-icon'/>
           </a>
-        <a href="https://www.linkedin.com/in/rodrigo-viana-532a9525b/">
+        <a href="https://www.linkedin.com/in/rodrigo-viana-532a9525b/" target='blank'>
           <FaLinkedin className='portifolio__footer-icon'/>
         </a>
       </div>
