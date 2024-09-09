@@ -89,5 +89,25 @@
             }
     
         }
+                
+        .portifolio__header-content{
+            flex: 1;
+            color: white;
+            flex-direction: column;
+            padding: 10rem 5rem;
+            
+            h3{
+                font-size: 30px;
+            }
+            
+            h1{
+                font-size: 50px;
+            }
+            p{
+                font-size: 14px;
+            }
+            
+
+        }
     }
 }

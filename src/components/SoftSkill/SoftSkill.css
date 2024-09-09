@@ -69,7 +69,11 @@
   .accordion {
     width: 350px;
   }
+  .accordion-box {
+    width: 80%;
+  }
   .active {
+    width: 80%;
     max-height: 360px;
   }
   .active .accordion-text {
