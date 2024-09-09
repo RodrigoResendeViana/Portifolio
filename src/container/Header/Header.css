@@ -69,4 +69,15 @@
   color: #171762;
   background: white;
   opacity: 1;
+}
+
+@media screen and (max-width: 1000px) {
+  .portifolio__header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .portifolio__header .portifolio__header-imagem img {
+    display: none;
+  }
 }/*# sourceMappingURL=Header.css.map */

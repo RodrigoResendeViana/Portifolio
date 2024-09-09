@@ -63,4 +63,16 @@
 .active .accordion-text {
   max-height: 250px;
   padding-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .accordion {
+    width: 350px;
+  }
+  .active {
+    max-height: 360px;
+  }
+  .active .accordion-text {
+    max-height: 360px;
+  }
 }/*# sourceMappingURL=SoftSkill.css.map */

@@ -9,12 +9,12 @@
   border-radius: 20px;
   padding: 5rem;
 }
+.portifolio__contact h1 {
+  margin: 2rem 0;
+}
 
 .portifolio__contact-infos {
   flex: 1;
-}
-.portifolio__contact-infos h1 {
-  margin-bottom: 2rem;
 }
 .portifolio__contact-infos .portifolio__contact-info {
   display: flex;
@@ -66,4 +66,17 @@
   border: 2px solid white;
   outline: none;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  .portifolio__contact {
+    flex-direction: column;
+  }
+  .portifolio__contact h1 {
+    margin: 4rem 0 2rem 2rem;
+  }
+  .portiflio__contact-fundo {
+    background: #b9c3f8;
+    padding: 5rem;
+  }
 }/*# sourceMappingURL=Contact.css.map */

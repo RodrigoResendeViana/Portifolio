@@ -28,3 +28,20 @@
     grid-gap: 2rem;
     margin-top: 3rem;
 }
+
+@media screen and (max-width: 1000px) {
+    .portifolio__projects-projects{
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .portifolio__projects-projects{
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+

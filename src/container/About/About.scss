@@ -23,7 +23,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 4rem;
+  margin: 4rem 2rem;
 
   h1{
     font-weight: 900;
@@ -46,6 +46,7 @@
     width: fit-content;
     cursor: default;
    }
+
   .portifolio__about-buttons{
     display: flex;
 
@@ -82,4 +83,74 @@
   border: 1px solid rgb(255, 255, 255);
   background: rgb(88, 88, 234);
   color: white;
+}
+
+@media screen and (max-width: 1000px) {
+  .portifolio__about{
+      flex-direction: column-reverse;
+      align-items: center;
+      text-align: center;
+
+      .portifolio__about-imagem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img {
+          width: 90%;
+          max-width: 500px;
+          padding: 3rem;
+        }
+      }
+  }
+
+      
+  .portifolio__about-infos {
+
+    h1{
+      font-weight: 900;
+      font-size: 32px;
+      margin-bottom: 1rem;
+    }
+
+    h3{
+      font-weight: 300;
+      line-height: 1px;
+      margin-bottom: 7rem;
+    }
+
+    p{
+      line-height: 25px;
+      letter-spacing: 0.7px;
+    }
+    
+    }
+
+    .portifolio__about-buttons{
+      display: flex;
+      justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+  .portifolio__about-infos{
+    width: 90%;
+    margin: 4rem;
+  }
+
+  .button {
+    margin-top: 50px;
+    padding: 1rem 3rem;
+    font-size: 15px;
+    white-space: nowrap;
+  
+    border: 1px solid rgb(0, 0, 0);
+    outline: none;
+     
+    background: transparent;
+    color: black;
+     
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+  }
 }

@@ -8,13 +8,14 @@
     color: white;
     border-radius: 20px;
     padding: 5rem;
+
+    h1{
+        margin: 2rem 0;
+    }
 }
 .portifolio__contact-infos{
     flex: 1;
 
-    h1{
-        margin-bottom: 2rem;
-    }
 
     .portifolio__contact-info{
         display: flex;
@@ -68,7 +69,21 @@
         outline: none;
         cursor: pointer;
     }
+}
 
- 
+@media screen and (max-width: 1000px) {
+    .portifolio__contact{
+        flex-direction: column;
+        h1{
+            margin: 4rem 0 2rem 2rem;
+        }
+    }
 
+    .portiflio__contact-fundo{
+        background: #b9c3f8;
+        padding: 5rem;
+    }
+
+    .portifolio__contact-form{
+    }
 }
